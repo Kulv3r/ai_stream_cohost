@@ -1,0 +1,61 @@
+/env
+/media
+/db.sqlite3
+.data
+**/dist
+**/build
+
+# MacOS specific
+.DS_Store
+
+# Docz files
+/.docz
+.module-cache
+.sass-cache
+.tmp
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Translations
+*.mo
+
+# Caches
+.cache
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*$py.class
+
+# Translations
+*.pot
+
+# virtualenv
+**/.env
+env/
+venv/
+ENV/
+
+# Pytest Coverage
+.coverage
+
+# Other
+.idea/
+
+*.todo
+*.bak
+
+tmp/
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
