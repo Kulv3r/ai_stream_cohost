@@ -4,7 +4,7 @@ from pynput.keyboard import Listener, Key
 import threading
 import queue
 
-from ai_co_streamer.app.settings import *
+from app.settings import *
 
 
 # Queue to handle the data
@@ -27,10 +27,11 @@ def _start_recording():
             dtype=DTYPE,
             callback=_callback,
     ):
-        print("Recording...")
+        print('Recording...')
         while not stop_event.is_set():
             sd.sleep(100)
-        print("Recording stopped.")
+
+        print('Recording stopped.')
 
 
 def _on_press(key):

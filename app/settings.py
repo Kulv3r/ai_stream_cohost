@@ -14,7 +14,7 @@ OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 
 # Twitch
 TWITCH_BOT_USERNAME = 'ChatterPlug'
-TWITCH_CHANNEL = 'kulv3r'
+TWITCH_CHANNEL = '#kulv3r'
 TWITCH_ID = os.environ['TWITCH_ID']
 TWITCH_SECRET = os.environ['TWITCH_SECRET']
 TWITCH_ACCESS_TOKEN = os.environ['TWITCH_ACCESS_TOKEN']
