@@ -4,7 +4,8 @@ from app.integrations.openai import open_ai
 def ask_gpt(messages):
     print('Asking GPT...')
     response = open_ai.chat.completions.create(
-        model='gpt-4',
+        # model='gpt-4',
+        model='gpt-4o',
         messages=messages,
         # messages=[
         #     {'role': 'system',

@@ -1,7 +1,6 @@
-import io
+from openai import BadRequestError
 
 from app.integrations.openai import open_ai
-from openai import BadRequestError
 
 
 def speech_to_text(audio_file):
@@ -24,4 +23,3 @@ def speech_to_text(audio_file):
     text = transcription.text
     print(f'Resulted text: "{text}"')
     return text
-

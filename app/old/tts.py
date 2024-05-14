@@ -1,4 +1,4 @@
-from ai_co_streamer.app.integrations.openai import open_ai
+from app.integrations.openai import open_ai
 
 
 def text_to_speech(text):
